@@ -5,12 +5,12 @@
 //  Created by lcr on 2021/11/15.
 //
 
+import PhotosUI
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ImageSelectView()
     }
 }
 

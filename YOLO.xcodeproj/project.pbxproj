@@ -14,6 +14,11 @@
 		0F62DF8E2742856300DB661A /* YOLOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DF8D2742856300DB661A /* YOLOTests.swift */; };
 		0F62DF982742856300DB661A /* YOLOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DF972742856300DB661A /* YOLOUITests.swift */; };
 		0F62DF9A2742856300DB661A /* YOLOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DF992742856300DB661A /* YOLOUITestsLaunchTests.swift */; };
+		0F62DFA72742863A00DB661A /* ImageSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DFA62742863A00DB661A /* ImageSelectView.swift */; };
+		0F62DFA92742866100DB661A /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DFA82742866100DB661A /* PhotoPicker.swift */; };
+		0F62DFAB27428A1600DB661A /* YOLOv3.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DFAA27428A1600DB661A /* YOLOv3.mlkitmodel */; };
+		0F62DFAD274296A300DB661A /* YOLOInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DFAC274296A300DB661A /* YOLOInteractor.swift */; };
+		0F62DFAF274296C500DB661A /* YOLOCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F62DFAE274296C500DB661A /* YOLOCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		0F62DF932742856300DB661A /* YOLOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F62DF972742856300DB661A /* YOLOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOUITests.swift; sourceTree = "<group>"; };
 		0F62DF992742856300DB661A /* YOLOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F62DFA62742863A00DB661A /* ImageSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectView.swift; sourceTree = "<group>"; };
+		0F62DFA82742866100DB661A /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		0F62DFAA27428A1600DB661A /* YOLOv3.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlkitmodel; sourceTree = "<group>"; };
+		0F62DFAC274296A300DB661A /* YOLOInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOInteractor.swift; sourceTree = "<group>"; };
+		0F62DFAE274296C500DB661A /* YOLOCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,15 @@
 		0F62DF7B2742856200DB661A /* YOLO */ = {
 			isa = PBXGroup;
 			children = (
+				0F62DFAA27428A1600DB661A /* YOLOv3.mlkitmodel */,
 				0F62DF7C2742856200DB661A /* YOLOApp.swift */,
 				0F62DF7E2742856200DB661A /* ContentView.swift */,
 				0F62DF802742856300DB661A /* Assets.xcassets */,
 				0F62DF822742856300DB661A /* Preview Content */,
+				0F62DFA62742863A00DB661A /* ImageSelectView.swift */,
+				0F62DFA82742866100DB661A /* PhotoPicker.swift */,
+				0F62DFAC274296A300DB661A /* YOLOInteractor.swift */,
+				0F62DFAE274296C500DB661A /* YOLOCore.swift */,
 			);
 			path = YOLO;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F62DFA92742866100DB661A /* PhotoPicker.swift in Sources */,
 				0F62DF7F2742856200DB661A /* ContentView.swift in Sources */,
+				0F62DFAF274296C500DB661A /* YOLOCore.swift in Sources */,
+				0F62DFA72742863A00DB661A /* ImageSelectView.swift in Sources */,
+				0F62DFAB27428A1600DB661A /* YOLOv3.mlkitmodel in Sources */,
 				0F62DF7D2742856200DB661A /* YOLOApp.swift in Sources */,
+				0F62DFAD274296A300DB661A /* YOLOInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
